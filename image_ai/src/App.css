@@ -1,0 +1,111 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  color: #1f2937;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #1d4ed8;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover:not(:disabled) {
+  background-color: #1e40af;
+}
+
+button:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.text-red-500 {
+  color: #ef4444;
+}
+
+.text-blue-600 {
+  color: #2563eb;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.border {
+  border: 1px solid #e5e7eb;
+}
+
+.border-gray-200 {
+  border-color: #e5e7eb;
+}
+
+.rounded {
+  border-radius: 0.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.wow{
+  display:flex;
+  flex-direction: column;
+  /* background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Flord-rama-wallpaper&psig=AOvVaw3A-GHLWba_JufuSB9EHHox&ust=1746278857279000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLDbn-rxhI0DFQAAAAAdAAAAABAYhttps://www.freepik.com/free-photos-vectors/lord-rama-wallpaperhttps://img.freepik.com/free-photo/beautiful-illustration-lord-rama-with-bow-arrow_1308-117267.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem; */
+}
+.padd-right{
+  margin-right: 10px;
+}
+#wow2{
+  
+  margin: 20px;
+}
+#wow3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
