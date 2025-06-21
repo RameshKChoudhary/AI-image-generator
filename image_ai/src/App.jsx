@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './app.css';
+import './App.css';
 
 export default function App() {
   const [prompt, setPrompt] = useState('');
